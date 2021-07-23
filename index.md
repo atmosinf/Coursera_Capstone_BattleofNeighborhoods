@@ -1,7 +1,7 @@
 # The Battle of the Neighborhoods - Open an Arcade in Manhattan
 ----
 <span style="color:#3771a3">Amoel Geogy</span> <br>
-<span style="color:#3771a3">July 23, 2021</span>
+<span style="color:#6da178;font-size:70%">July 23, 2021</span>
 
 This is the Capstone project after completing the IBM Data Science Professional Course on Coursera. 
 
