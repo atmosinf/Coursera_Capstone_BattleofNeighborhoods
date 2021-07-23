@@ -6,6 +6,8 @@
 
 This is the Capstone project to complete the IBM Data Science Professional Course on Coursera. In this course (which consisted of 9 separate sub-courses) we learned about certain topics like Data Science Methodology, Data Analysis, Data Visualization, connecting to databases and using SQL in Jupyter notebooks and Machine Learning with Python. In this project we will use the skills we acquired to solve a business problem.
 
+...
+
 ## 1. Introduction - Business Problem
 Our client wants to open an arcade in Manhattan. He has been to almost much all the arcades in Manhattan, but he does not find any of them satisfactory. Being an 80s kid, he lived through the golden age of arcades, and he wants to open one that will satisfy his nostalgia, and show the kids how it really used to be. 
 
