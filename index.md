@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# The Battle of the Neighborhoods - Open an Arcade in Manhattan
 
 You can use the [editor on GitHub](https://github.com/atmosinf/Coursera_Capstone_BattleofNeighborhoods/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
