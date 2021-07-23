@@ -1,9 +1,8 @@
 # The Battle of the Neighborhoods - Open an Arcade in Manhattan
-<span style="color:#3771a3">Amoel Geogy</span>
+<span style="color:#3771a3">Amoel Geogy</span> July 23, 2021
 
-You can use the [editor on GitHub](https://github.com/atmosinf/Coursera_Capstone_BattleofNeighborhoods/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## 1. Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 <iframe src="arcademap.html" height="500" width="700"></iframe>
 
