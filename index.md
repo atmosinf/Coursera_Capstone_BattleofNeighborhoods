@@ -22,4 +22,6 @@ To get the locations of arcades and the academic institutions, we will use the [
 
 To get the neighborhood boudaries, we will use the geojson file from this [github repository](https://github.com/blackmad/neighborhoods/blob/master/manhattan.geojson). Furthermore, we will use the [geopy.geocoders](https://geopy.readthedocs.io/) module for the coordinates of the neighborhoods. 
 
+We will use the location data to visualize the places on a folium map. We will use the visualizations to analyse the data and find points of interest. Finally we will use a density clustering algorithm (DBSCAN) to find the areas with the most universities and the least arcades. This would be the location where we might propose to the client to open his Arcade.
+
 
