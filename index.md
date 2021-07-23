@@ -9,39 +9,17 @@ This is the Capstone project to complete the IBM Data Science Professional Cours
 ## 1. Introduction - Business Problem
 Our client wants to open an arcade in Manhattan. He has been to almost much all the arcades in Manhattan, but he does not find any of them satisfactory. Being an 80s kid, he lived through the golden age of arcades, and he wants to open one that will satisfy his nostalgia, and show the kids how it really used to be. 
 
-Our target audience will mostly be early teenagers to young adults. We would need to find the neighborhoods in Manhattan where the density of this crowd is high. It would make sense to search for areas which have many universities or schools.
+The target audience will mostly be early teenagers to young adults. We would need to find the neighborhoods in Manhattan where the density of this crowd is high. It would make sense to search for areas which have many universities or schools.
 
 
-<iframe src="arcademap.html" height="500" width="800"></iframe>
+## 2. Data
+Based on this business problem, we can identify that we need data such as:
+* locations of existing arcades
+* locations of schools, universities and colleges
+* geographical data like the coordinates and areas of each neighborhood in Manhattan
 
-### Markdown
+To get the locations of arcades and the academic institutions, we will use the [Foursquare API](https://developer.foursquare.com/docs/). We will use the categoryids provided in the Foursquare [website](https://developer.foursquare.com/docs/build-with-foursquare/categories/) to search for the data of Arcades and College & Universities. We will retrieve the Name, Latitude, Longitude and Category of these locations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+To get the neighborhood boudaries, we will use the geojson file from this [github repository](https://github.com/blackmad/neighborhoods/blob/master/manhattan.geojson). Furthermore, we will use the [geopy.geocoders](https://geopy.readthedocs.io/) module for the coordinates of the neighborhoods. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/atmosinf/Coursera_Capstone_BattleofNeighborhoods/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
