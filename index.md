@@ -4,7 +4,7 @@
 ## 1. Introduction
 
 
-<iframe src="arcademap.html" height="500" width="700"></iframe>
+<iframe src="arcademap.html" height="500" width="800"></iframe>
 
 ### Markdown
 
