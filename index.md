@@ -26,4 +26,8 @@ To get the neighborhood boudaries, we will use the geojson file from this [githu
 
 We will use the location data to visualize the places on a folium map. We will use the visualizations to analyse the data and find points of interest. Finally we will use a density clustering algorithm (DBSCAN) to find the areas with the most universities and the least arcades. This would be the location where we might propose to the client to open his Arcade.
 
+We plotted the Categories of the results in a bar graph. This allowed us to see that we have unwanted categories in the dataset (like Bar, Museum, etc), and we will filter them out later.
+
+<img src="arcade_bargraph_snip.PNG" alt="arcade categories">
+
 
