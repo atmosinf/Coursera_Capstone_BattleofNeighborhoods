@@ -30,7 +30,8 @@ We plotted the Categories of the results in a bar graph. This allowed us to see 
 
 <img src="arcade_bargraph_snip.PNG" alt="arcade categories">
 
-Feature Selection:
+
+**Feature Selection:**
 For both the Arcade and University data, we have selected the Name, Latitude, Longitude and Category as the features to keep. We have dropped the other features.
 
 Arcades:<br>
