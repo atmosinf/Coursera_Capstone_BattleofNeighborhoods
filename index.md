@@ -44,7 +44,7 @@ We then plotted the results using the folium library.
 
 **Manhattan neighborhoods**<br>
 <iframe src="man_neigh_map.html" height="500" width="700"></iframe>
-<br>  
+ 
 **Universities and Arcades in Manhattan**
 <iframe src="unimap.html" height="500" width="700"></iframe>
 
