@@ -43,11 +43,11 @@ Universities:<br>
 We then plotted the results using the folium library.
 
 **Manhattan neighborhoods**<br>
-<iframe src="man_neigh_map.html" height="500" width="700">
+<iframe src="man_neigh_map.html" height="500" width="700"></iframe>
 <br>  
   
 **Universities and Arcades in Manhattan**
-<iframe src="unimap.html" height="500" width="700">
+<iframe src="unimap.html" height="500" width="700"></iframe>
 <br>
   
 ## 3. Methodology<br>
@@ -56,7 +56,7 @@ Using recursion, we will use the optimal value of epsilon and choose the min_sam
 
 ## 4. Analysis <br>
   
-<iframe src="unimapclust.html" height="500" width="700">
+<iframe src="unimapclust.html" height="500" width="700"></iframe>
 <br>
 We can see in the output of the DBSCAN clustering algorithm above that the cluster in pink seems to be the densest cluster. We will perform further analysis by adding the arcades back to the map. 
   
