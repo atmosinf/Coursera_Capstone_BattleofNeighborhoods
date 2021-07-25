@@ -39,6 +39,7 @@ Arcades:<br>
 Universities:<br>
 <img src="unidf_snip.PNG" alt="university dataframe">
 
-We plotted the results using the folium library.
+We then plotted the results using the folium library.
 
-Manhattan neighborhoods:
+Manhattan neighborhoods:<br>
+<iframe src="man_neigh_map.html" height="500" width="700">
