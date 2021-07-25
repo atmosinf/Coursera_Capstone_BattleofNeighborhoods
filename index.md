@@ -67,7 +67,7 @@ After running a simple DBSCAN on the university locations, we found that indeed,
 
 ## 6. Conclusion
   
-<iframe src="finalmap.html" height="500" width="700">
+<iframe src="finalmap.html" height="500" width="700"></iframe>
 <br>
 Using the visualizations, analysis and the results of our clustering model, we can conclude that the ideal location to open an arcade would be just to the south of Morningside Heights. We have found this spot to be in the neighborhood of Upper West Side, in Bloomingdale. The area is marked by a blue circle in the final visualization. We can expect the students of Columbia University to start using this arcade when it is open.
 
