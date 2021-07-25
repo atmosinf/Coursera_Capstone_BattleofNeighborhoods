@@ -48,7 +48,7 @@ We then plotted the results using the folium library.
   
 **Universities and Arcades in Manhattan**
 <iframe src="unimap.html" height="500" width="700">
-  
+<br>
   
 ## 3. Methodology<br>
 We used the location data to find the location with the highest density of Universities. To find this cluster, we will use the DBSCAN (Density Based Spatial Clustering of Applications with Noise).
