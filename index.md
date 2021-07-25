@@ -45,10 +45,9 @@ We then plotted the results using the folium library.
 **Manhattan neighborhoods**<br>
 <iframe src="man_neigh_map.html" height="500" width="700"></iframe>
 <br>  
-  
 **Universities and Arcades in Manhattan**
 <iframe src="unimap.html" height="500" width="700"></iframe>
-<br>
+
   
 ## 3. Methodology<br>
 We used the location data to find the location with the highest density of Universities. To find this cluster, we will use the DBSCAN (Density Based Spatial Clustering of Applications with Noise).
@@ -57,7 +56,7 @@ Using recursion, we will use the optimal value of epsilon and choose the min_sam
 ## 4. Analysis <br>
   
 <iframe src="unimapclust.html" height="500" width="700"></iframe>
-<br>
+
 We can see in the output of the DBSCAN clustering algorithm above that the cluster in pink seems to be the densest cluster. We will perform further analysis by adding the arcades back to the map. 
   
 ## 5. Results and Discussion
@@ -68,7 +67,7 @@ After running a simple DBSCAN on the university locations, we found that indeed,
 ## 6. Conclusion
   
 <iframe src="finalmap.html" height="500" width="700"></iframe>
-<br>
+
 Using the visualizations, analysis and the results of our clustering model, we can conclude that the ideal location to open an arcade would be just to the south of Morningside Heights. We have found this spot to be in the neighborhood of Upper West Side, in Bloomingdale. The area is marked by a blue circle in the final visualization. We can expect the students of Columbia University to start using this arcade when it is open.
 
 
