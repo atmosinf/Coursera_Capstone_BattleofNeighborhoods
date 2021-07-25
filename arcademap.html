@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ce17d26e44d34748ba503c89fbd673ec {
+                #map_06c9567228d943b298c31226f792bfb9 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,13 +35,13 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_ce17d26e44d34748ba503c89fbd673ec" ></div>
+            <div class="folium-map" id="map_06c9567228d943b298c31226f792bfb9" ></div>
         
 </body>
 <script>    
     
-            var map_ce17d26e44d34748ba503c89fbd673ec = L.map(
-                "map_ce17d26e44d34748ba503c89fbd673ec",
+            var map_06c9567228d943b298c31226f792bfb9 = L.map(
+                "map_06c9567228d943b298c31226f792bfb9",
                 {
                     center: [40.7896239, -73.9598939],
                     crs: L.CRS.EPSG3857,
@@ -55,605 +55,1157 @@
 
         
     
-            var tile_layer_00660cd656b04eb3b5e015c5fbf9376e = L.tileLayer(
+            var tile_layer_8a0122f0b037427e97de5da729077382 = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-            var marker_956dde11801342158a23bf0492f1725c = L.marker(
+            var marker_abf929bfc33140a181cb892e805748c8 = L.marker(
                 [40.825184088036714, -73.94296835585516],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_a3af5ff7ec7347ada21fab4c1a765628 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_956dde11801342158a23bf0492f1725c.setIcon(custom_icon_a3af5ff7ec7347ada21fab4c1a765628);
+        var custom_icon_aa4d69f927fb4e16a24280e68bb5b5e6 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_abf929bfc33140a181cb892e805748c8.setIcon(custom_icon_aa4d69f927fb4e16a24280e68bb5b5e6);
         
     
-        var popup_ad8dcaeb33044e22ab1b2b9a89a67f9b = L.popup({"maxWidth": "100%"});
+        var popup_f98f17682457463bb107cd80da304ecf = L.popup({"maxWidth": "100%"});
 
         
-            var html_52b026ceb6be4ab7a5b89cd5e256e534 = $(`<div id="html_52b026ceb6be4ab7a5b89cd5e256e534" style="width: 100.0%; height: 100.0%;">The Shelter Uptown, Arcade</div>`)[0];
-            popup_ad8dcaeb33044e22ab1b2b9a89a67f9b.setContent(html_52b026ceb6be4ab7a5b89cd5e256e534);
+            var html_fa5a261e1fed49aa9585ff8934c12fc1 = $(`<div id="html_fa5a261e1fed49aa9585ff8934c12fc1" style="width: 100.0%; height: 100.0%;">The Shelter Uptown, Arcade</div>`)[0];
+            popup_f98f17682457463bb107cd80da304ecf.setContent(html_fa5a261e1fed49aa9585ff8934c12fc1);
         
 
-        marker_956dde11801342158a23bf0492f1725c.bindPopup(popup_ad8dcaeb33044e22ab1b2b9a89a67f9b)
+        marker_abf929bfc33140a181cb892e805748c8.bindPopup(popup_f98f17682457463bb107cd80da304ecf)
         ;
 
         
     
     
-            var marker_22c7dfe89dfc4f84876b009548713e92 = L.marker(
-                [40.75939927400616, -73.83001863956451],
+            var marker_704faa3465494e26b0c491866b711b5d = L.marker(
+                [40.712060557272785, -73.951239125297],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_5772f0eee9aa4ef5b01adf1bb05fffef = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_22c7dfe89dfc4f84876b009548713e92.setIcon(custom_icon_5772f0eee9aa4ef5b01adf1bb05fffef);
+        var custom_icon_b14a51b952da4658b6b3db5935c4e5ae = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_704faa3465494e26b0c491866b711b5d.setIcon(custom_icon_b14a51b952da4658b6b3db5935c4e5ae);
         
     
-        var popup_9fb4b081366044afbd1a5feb413505b0 = L.popup({"maxWidth": "100%"});
+        var popup_7124958ecbd242d18104d72e1fd4ec7c = L.popup({"maxWidth": "100%"});
 
         
-            var html_b28155e3528d4898b5966f70b404f5bc = $(`<div id="html_b28155e3528d4898b5966f70b404f5bc" style="width: 100.0%; height: 100.0%;">Playdate NYC, Arcade</div>`)[0];
-            popup_9fb4b081366044afbd1a5feb413505b0.setContent(html_b28155e3528d4898b5966f70b404f5bc);
+            var html_adff572c847b4d9585631ebace8e732e = $(`<div id="html_adff572c847b4d9585631ebace8e732e" style="width: 100.0%; height: 100.0%;">Barcade, Bar</div>`)[0];
+            popup_7124958ecbd242d18104d72e1fd4ec7c.setContent(html_adff572c847b4d9585631ebace8e732e);
         
 
-        marker_22c7dfe89dfc4f84876b009548713e92.bindPopup(popup_9fb4b081366044afbd1a5feb413505b0)
+        marker_704faa3465494e26b0c491866b711b5d.bindPopup(popup_7124958ecbd242d18104d72e1fd4ec7c)
         ;
 
         
     
     
-            var marker_5d68422decc34f2c9589693314aa3a88 = L.marker(
+            var marker_b94ff42ade8e4b8794bd32a6961d8418 = L.marker(
+                [40.72501408844526, -73.98132966231245],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_5e4eb1ea68084da0a456d810eaf72481 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_b94ff42ade8e4b8794bd32a6961d8418.setIcon(custom_icon_5e4eb1ea68084da0a456d810eaf72481);
+        
+    
+        var popup_f883c608d5184d4ea1a87e0b07aec81d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f19e7eeaaad47cf8936287de43e83fe = $(`<div id="html_5f19e7eeaaad47cf8936287de43e83fe" style="width: 100.0%; height: 100.0%;">7B Horseshoe Bar aka Vazacs, Dive Bar</div>`)[0];
+            popup_f883c608d5184d4ea1a87e0b07aec81d.setContent(html_5f19e7eeaaad47cf8936287de43e83fe);
+        
+
+        marker_b94ff42ade8e4b8794bd32a6961d8418.bindPopup(popup_f883c608d5184d4ea1a87e0b07aec81d)
+        ;
+
+        
+    
+    
+            var marker_8dd10ab0f857420b9cab7a29611d956f = L.marker(
+                [40.74441722547813, -73.99442300926881],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_9763e638b1ec4f3ab033794aa4136d44 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_8dd10ab0f857420b9cab7a29611d956f.setIcon(custom_icon_9763e638b1ec4f3ab033794aa4136d44);
+        
+    
+        var popup_bf253871715b4e17affb7c153be5a7d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f1318cc2cfa4dd5b9fe966b171355d0 = $(`<div id="html_4f1318cc2cfa4dd5b9fe966b171355d0" style="width: 100.0%; height: 100.0%;">Barcade, Bar</div>`)[0];
+            popup_bf253871715b4e17affb7c153be5a7d0.setContent(html_4f1318cc2cfa4dd5b9fe966b171355d0);
+        
+
+        marker_8dd10ab0f857420b9cab7a29611d956f.bindPopup(popup_bf253871715b4e17affb7c153be5a7d0)
+        ;
+
+        
+    
+    
+            var marker_be36a6ba90a74541ad15f7aac122044e = L.marker(
                 [40.69460740630068, -73.9074753422543],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_f01fad2b8b9e4ca9a94a0681d5846307 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_5d68422decc34f2c9589693314aa3a88.setIcon(custom_icon_f01fad2b8b9e4ca9a94a0681d5846307);
+        var custom_icon_5be2880111a941f0acf0e88118f85064 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_be36a6ba90a74541ad15f7aac122044e.setIcon(custom_icon_5be2880111a941f0acf0e88118f85064);
         
     
-        var popup_0bd530620a7b41ed9cc254a11c33fbb4 = L.popup({"maxWidth": "100%"});
+        var popup_b678373a799340cb94ef73cfa24bad18 = L.popup({"maxWidth": "100%"});
 
         
-            var html_16d8363fb2494bf58b9cc6a7eaf5704d = $(`<div id="html_16d8363fb2494bf58b9cc6a7eaf5704d" style="width: 100.0%; height: 100.0%;">The Zarcade, Arcade</div>`)[0];
-            popup_0bd530620a7b41ed9cc254a11c33fbb4.setContent(html_16d8363fb2494bf58b9cc6a7eaf5704d);
+            var html_6f796a3f81b7479ca24656fbe82275e5 = $(`<div id="html_6f796a3f81b7479ca24656fbe82275e5" style="width: 100.0%; height: 100.0%;">The Zarcade, Arcade</div>`)[0];
+            popup_b678373a799340cb94ef73cfa24bad18.setContent(html_6f796a3f81b7479ca24656fbe82275e5);
         
 
-        marker_5d68422decc34f2c9589693314aa3a88.bindPopup(popup_0bd530620a7b41ed9cc254a11c33fbb4)
+        marker_be36a6ba90a74541ad15f7aac122044e.bindPopup(popup_b678373a799340cb94ef73cfa24bad18)
         ;
 
         
     
     
-            var marker_620e45c7809740449ea1bc4f41ea04a0 = L.marker(
-                [40.667549811768396, -73.69726895263203],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_714accba780d431dba4c6f8ad2c53d02 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_620e45c7809740449ea1bc4f41ea04a0.setIcon(custom_icon_714accba780d431dba4c6f8ad2c53d02);
-        
-    
-        var popup_a78147ea8f8c4750a888bbe43e56ae9b = L.popup({"maxWidth": "100%"});
-
-        
-            var html_de5d887b2b5f4eef9b5b107b0f321052 = $(`<div id="html_de5d887b2b5f4eef9b5b107b0f321052" style="width: 100.0%; height: 100.0%;">Aidan gets love of love, Arcade</div>`)[0];
-            popup_a78147ea8f8c4750a888bbe43e56ae9b.setContent(html_de5d887b2b5f4eef9b5b107b0f321052);
-        
-
-        marker_620e45c7809740449ea1bc4f41ea04a0.bindPopup(popup_a78147ea8f8c4750a888bbe43e56ae9b)
-        ;
-
-        
-    
-    
-            var marker_290eff236ad94524b90834510877f670 = L.marker(
+            var marker_7c9c838bdce1450a830ac743d4742764 = L.marker(
                 [40.733703, -74.003185],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_7d54caf33de344a69119cc5143f255e3 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_290eff236ad94524b90834510877f670.setIcon(custom_icon_7d54caf33de344a69119cc5143f255e3);
+        var custom_icon_e36b707064284593a30f950520a8144e = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_7c9c838bdce1450a830ac743d4742764.setIcon(custom_icon_e36b707064284593a30f950520a8144e);
         
     
-        var popup_ec2e1abbfa754392b92f2f081a3e288b = L.popup({"maxWidth": "100%"});
+        var popup_d5ca64812a6a487a91db8297e91765f7 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9d28df6cc1154a5085e5b74b4f21aed2 = $(`<div id="html_9d28df6cc1154a5085e5b74b4f21aed2" style="width: 100.0%; height: 100.0%;">Cellar Dog, Arcade</div>`)[0];
-            popup_ec2e1abbfa754392b92f2f081a3e288b.setContent(html_9d28df6cc1154a5085e5b74b4f21aed2);
+            var html_13f27cc2ae054a7d88f3e70709b59d46 = $(`<div id="html_13f27cc2ae054a7d88f3e70709b59d46" style="width: 100.0%; height: 100.0%;">Cellar Dog, Arcade</div>`)[0];
+            popup_d5ca64812a6a487a91db8297e91765f7.setContent(html_13f27cc2ae054a7d88f3e70709b59d46);
         
 
-        marker_290eff236ad94524b90834510877f670.bindPopup(popup_ec2e1abbfa754392b92f2f081a3e288b)
+        marker_7c9c838bdce1450a830ac743d4742764.bindPopup(popup_d5ca64812a6a487a91db8297e91765f7)
         ;
 
         
     
     
-            var marker_cba659585c414715a59e285ee6f2254d = L.marker(
+            var marker_06f9584bd35c4471a495fdfdbdaeb375 = L.marker(
+                [40.667549811768396, -73.69726895263203],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_70f2e6c509b84f37953fd7f877266795 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_06f9584bd35c4471a495fdfdbdaeb375.setIcon(custom_icon_70f2e6c509b84f37953fd7f877266795);
+        
+    
+        var popup_be75f6e3e70049d5a98edd4c58e4e456 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbbe1c6162a8477295b7d6db07c72ee6 = $(`<div id="html_cbbe1c6162a8477295b7d6db07c72ee6" style="width: 100.0%; height: 100.0%;">Aidan gets love of love, Arcade</div>`)[0];
+            popup_be75f6e3e70049d5a98edd4c58e4e456.setContent(html_cbbe1c6162a8477295b7d6db07c72ee6);
+        
+
+        marker_06f9584bd35c4471a495fdfdbdaeb375.bindPopup(popup_be75f6e3e70049d5a98edd4c58e4e456)
+        ;
+
+        
+    
+    
+            var marker_e6e4793c4cb44b349aaf53f7621e9b5d = L.marker(
+                [40.75939927400616, -73.83001863956451],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_449c924a965b49d9b57d01a2f3ada075 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_e6e4793c4cb44b349aaf53f7621e9b5d.setIcon(custom_icon_449c924a965b49d9b57d01a2f3ada075);
+        
+    
+        var popup_85ab0ee8cd8e4afbac542187dc1c245c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e314ce105e2478e859d68505257861d = $(`<div id="html_0e314ce105e2478e859d68505257861d" style="width: 100.0%; height: 100.0%;">Playdate NYC, Arcade</div>`)[0];
+            popup_85ab0ee8cd8e4afbac542187dc1c245c.setContent(html_0e314ce105e2478e859d68505257861d);
+        
+
+        marker_e6e4793c4cb44b349aaf53f7621e9b5d.bindPopup(popup_85ab0ee8cd8e4afbac542187dc1c245c)
+        ;
+
+        
+    
+    
+            var marker_6b9224b1a8024315a2434799872ae5b1 = L.marker(
                 [40.657456, -74.007611],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_c98d2d20bc384dc2a78a3bb124bf6b77 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_cba659585c414715a59e285ee6f2254d.setIcon(custom_icon_c98d2d20bc384dc2a78a3bb124bf6b77);
+        var custom_icon_0afb18591bbf4d4d9126758c22938b39 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_6b9224b1a8024315a2434799872ae5b1.setIcon(custom_icon_0afb18591bbf4d4d9126758c22938b39);
         
     
-        var popup_1968f41dc2674aeab1aa0cea34493771 = L.popup({"maxWidth": "100%"});
+        var popup_a72b8b8345004b18a015ed628f51c63e = L.popup({"maxWidth": "100%"});
 
         
-            var html_0066ab428a7f4bb6b01a48513db975cf = $(`<div id="html_0066ab428a7f4bb6b01a48513db975cf" style="width: 100.0%; height: 100.0%;">Game Room, Arcade</div>`)[0];
-            popup_1968f41dc2674aeab1aa0cea34493771.setContent(html_0066ab428a7f4bb6b01a48513db975cf);
+            var html_f7a54f06fa974d918ef8dc09fa2a2b3a = $(`<div id="html_f7a54f06fa974d918ef8dc09fa2a2b3a" style="width: 100.0%; height: 100.0%;">Game Room, Arcade</div>`)[0];
+            popup_a72b8b8345004b18a015ed628f51c63e.setContent(html_f7a54f06fa974d918ef8dc09fa2a2b3a);
         
 
-        marker_cba659585c414715a59e285ee6f2254d.bindPopup(popup_1968f41dc2674aeab1aa0cea34493771)
+        marker_6b9224b1a8024315a2434799872ae5b1.bindPopup(popup_a72b8b8345004b18a015ed628f51c63e)
         ;
 
         
     
     
-            var marker_9a969fb371fc4db887c134a596bed952 = L.marker(
+            var marker_96cd07038288413d90d18410fd75a64f = L.marker(
+                [40.72083336302304, -74.04488703223045],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_ca2b278893064bffb8e78b667efdc4ff = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_96cd07038288413d90d18410fd75a64f.setIcon(custom_icon_ca2b278893064bffb8e78b667efdc4ff);
+        
+    
+        var popup_59830bb860fd43f4b5116f5cba8c654e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa95bb65a5eb496fa9f7ec9965e04b4c = $(`<div id="html_fa95bb65a5eb496fa9f7ec9965e04b4c" style="width: 100.0%; height: 100.0%;">Barcade, Bar</div>`)[0];
+            popup_59830bb860fd43f4b5116f5cba8c654e.setContent(html_fa95bb65a5eb496fa9f7ec9965e04b4c);
+        
+
+        marker_96cd07038288413d90d18410fd75a64f.bindPopup(popup_59830bb860fd43f4b5116f5cba8c654e)
+        ;
+
+        
+    
+    
+            var marker_6090fedf88ef4a4dafaffedb713b8712 = L.marker(
+                [40.74454348173583, -73.91085694975943],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_429c1c801c72484897a67e7061da5b12 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_6090fedf88ef4a4dafaffedb713b8712.setIcon(custom_icon_429c1c801c72484897a67e7061da5b12);
+        
+    
+        var popup_3e6fe894e78b4584991fddd63f0a4934 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76e856b08c0640ba96409f503fef7882 = $(`<div id="html_76e856b08c0640ba96409f503fef7882" style="width: 100.0%; height: 100.0%;">Solid State, Bar</div>`)[0];
+            popup_3e6fe894e78b4584991fddd63f0a4934.setContent(html_76e856b08c0640ba96409f503fef7882);
+        
+
+        marker_6090fedf88ef4a4dafaffedb713b8712.bindPopup(popup_3e6fe894e78b4584991fddd63f0a4934)
+        ;
+
+        
+    
+    
+            var marker_13db994e946046598c029463564ffd05 = L.marker(
                 [40.90284485363276, -73.86451978646946],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_63c750f27a584734b6581af143495322 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_9a969fb371fc4db887c134a596bed952.setIcon(custom_icon_63c750f27a584734b6581af143495322);
+        var custom_icon_bc6a299f1c0d4cfdb99775cdf0dba3ed = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_13db994e946046598c029463564ffd05.setIcon(custom_icon_bc6a299f1c0d4cfdb99775cdf0dba3ed);
         
     
-        var popup_f3c6adcf89b54e0699c28a82c6628151 = L.popup({"maxWidth": "100%"});
+        var popup_e2b962bf09d1427f8a4dd067ce9400f5 = L.popup({"maxWidth": "100%"});
 
         
-            var html_6342ccb663e546849ec421fe625938ee = $(`<div id="html_6342ccb663e546849ec421fe625938ee" style="width: 100.0%; height: 100.0%;">Mckeon&#39;s pub, Arcade</div>`)[0];
-            popup_f3c6adcf89b54e0699c28a82c6628151.setContent(html_6342ccb663e546849ec421fe625938ee);
+            var html_195ac09ca1ce4b7d853dbb8672aaba26 = $(`<div id="html_195ac09ca1ce4b7d853dbb8672aaba26" style="width: 100.0%; height: 100.0%;">Mckeon&#39;s pub, Arcade</div>`)[0];
+            popup_e2b962bf09d1427f8a4dd067ce9400f5.setContent(html_195ac09ca1ce4b7d853dbb8672aaba26);
         
 
-        marker_9a969fb371fc4db887c134a596bed952.bindPopup(popup_f3c6adcf89b54e0699c28a82c6628151)
+        marker_13db994e946046598c029463564ffd05.bindPopup(popup_e2b962bf09d1427f8a4dd067ce9400f5)
         ;
 
         
     
     
-            var marker_d33175c0306a48e0a86e2e00ad67e0c7 = L.marker(
-                [40.573882217685764, -73.9790153503418],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_ff7342a102b04434a3ee1e4037a19a69 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_d33175c0306a48e0a86e2e00ad67e0c7.setIcon(custom_icon_ff7342a102b04434a3ee1e4037a19a69);
-        
-    
-        var popup_7a2b482d21724a70b7d08afd92cba6e3 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_6292f51614dc4fcc994897c37face949 = $(`<div id="html_6292f51614dc4fcc994897c37face949" style="width: 100.0%; height: 100.0%;">Deno&#39;s Arcade, Arcade</div>`)[0];
-            popup_7a2b482d21724a70b7d08afd92cba6e3.setContent(html_6292f51614dc4fcc994897c37face949);
-        
-
-        marker_d33175c0306a48e0a86e2e00ad67e0c7.bindPopup(popup_7a2b482d21724a70b7d08afd92cba6e3)
-        ;
-
-        
-    
-    
-            var marker_0ac2bece55804185b0ad5923dc5db3b0 = L.marker(
-                [41.002291, -74.042427],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_b5d51206bfc4472890ca9b3b48e32d65 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_0ac2bece55804185b0ad5923dc5db3b0.setIcon(custom_icon_b5d51206bfc4472890ca9b3b48e32d65);
-        
-    
-        var popup_73c213cc712a4a039118d5316a219e44 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_954d5f357bd34485a0117c51419620b4 = $(`<div id="html_954d5f357bd34485a0117c51419620b4" style="width: 100.0%; height: 100.0%;">Hillsdale Carnival, Arcade</div>`)[0];
-            popup_73c213cc712a4a039118d5316a219e44.setContent(html_954d5f357bd34485a0117c51419620b4);
-        
-
-        marker_0ac2bece55804185b0ad5923dc5db3b0.bindPopup(popup_73c213cc712a4a039118d5316a219e44)
-        ;
-
-        
-    
-    
-            var marker_73a6318208174bcc8a086b4147a54e6d = L.marker(
-                [40.919145, -74.074773],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_71cc685d4a794a0b99312ff2fe809b6b = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_73a6318208174bcc8a086b4147a54e6d.setIcon(custom_icon_71cc685d4a794a0b99312ff2fe809b6b);
-        
-    
-        var popup_20165261ba9d4b3190e57582287dbc17 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_c41ff051987841d6b58e1a720952af32 = $(`<div id="html_c41ff051987841d6b58e1a720952af32" style="width: 100.0%; height: 100.0%;">ARENA STEM, Arcade</div>`)[0];
-            popup_20165261ba9d4b3190e57582287dbc17.setContent(html_c41ff051987841d6b58e1a720952af32);
-        
-
-        marker_73a6318208174bcc8a086b4147a54e6d.bindPopup(popup_20165261ba9d4b3190e57582287dbc17)
-        ;
-
-        
-    
-    
-            var marker_e0481fb6a50742eeb945ae57050f28b0 = L.marker(
-                [40.574619723392544, -73.97873640060425],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_2bf1cb91f6094658aa0eb40d98d7b5e0 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_e0481fb6a50742eeb945ae57050f28b0.setIcon(custom_icon_2bf1cb91f6094658aa0eb40d98d7b5e0);
-        
-    
-        var popup_f5ed6870eecf414084269e130e006182 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_e90d9b18e7cf4f96a1cb02e88827c0aa = $(`<div id="html_e90d9b18e7cf4f96a1cb02e88827c0aa" style="width: 100.0%; height: 100.0%;">Luna Arcade, Arcade</div>`)[0];
-            popup_f5ed6870eecf414084269e130e006182.setContent(html_e90d9b18e7cf4f96a1cb02e88827c0aa);
-        
-
-        marker_e0481fb6a50742eeb945ae57050f28b0.bindPopup(popup_f5ed6870eecf414084269e130e006182)
-        ;
-
-        
-    
-    
-            var marker_6fb0bdcaa102497e97a4dd61b4f63556 = L.marker(
-                [40.57533, -73.979595],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_442ba9d12bed4391a751a3b3b9c7568f = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_6fb0bdcaa102497e97a4dd61b4f63556.setIcon(custom_icon_442ba9d12bed4391a751a3b3b9c7568f);
-        
-    
-        var popup_cdce1323bb45416895fc35367f77e57c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_af327c47843b406fadb9b7c4e846d31d = $(`<div id="html_af327c47843b406fadb9b7c4e846d31d" style="width: 100.0%; height: 100.0%;">Pinball 4 Pinheads, Arcade</div>`)[0];
-            popup_cdce1323bb45416895fc35367f77e57c.setContent(html_af327c47843b406fadb9b7c4e846d31d);
-        
-
-        marker_6fb0bdcaa102497e97a4dd61b4f63556.bindPopup(popup_cdce1323bb45416895fc35367f77e57c)
-        ;
-
-        
-    
-    
-            var marker_155ecbd68a064716b6484363201f6eca = L.marker(
-                [40.69192757809855, -74.28684951467606],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_6a8939e3d1784fa1ab906c5eb990e667 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_155ecbd68a064716b6484363201f6eca.setIcon(custom_icon_6a8939e3d1784fa1ab906c5eb990e667);
-        
-    
-        var popup_bf9e0011ea844194a97b4ffa55b4062c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_54c580f14b414bb5995d70db9613bc36 = $(`<div id="html_54c580f14b414bb5995d70db9613bc36" style="width: 100.0%; height: 100.0%;">Bunny&#39;s missing fur, Arcade</div>`)[0];
-            popup_bf9e0011ea844194a97b4ffa55b4062c.setContent(html_54c580f14b414bb5995d70db9613bc36);
-        
-
-        marker_155ecbd68a064716b6484363201f6eca.bindPopup(popup_bf9e0011ea844194a97b4ffa55b4062c)
-        ;
-
-        
-    
-    
-            var marker_2a3492d9976b4497b8abea31d724955a = L.marker(
-                [40.95347839402155, -73.84389255769372],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_d26b508632f24f97abadbc2baae0b50f = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_2a3492d9976b4497b8abea31d724955a.setIcon(custom_icon_d26b508632f24f97abadbc2baae0b50f);
-        
-    
-        var popup_fda976f6b7b041f6966899b3ee2e5566 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_558b6ad15fce438d9ed168b610dd5d7c = $(`<div id="html_558b6ad15fce438d9ed168b610dd5d7c" style="width: 100.0%; height: 100.0%;">Lola on the Grill, Arcade</div>`)[0];
-            popup_fda976f6b7b041f6966899b3ee2e5566.setContent(html_558b6ad15fce438d9ed168b610dd5d7c);
-        
-
-        marker_2a3492d9976b4497b8abea31d724955a.bindPopup(popup_fda976f6b7b041f6966899b3ee2e5566)
-        ;
-
-        
-    
-    
-            var marker_329de0d92d9b476594d4a3dba262f2e8 = L.marker(
-                [40.61968301176931, -74.13459087717827],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_0261d5a7c74c4fd39db98abcb212e56e = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_329de0d92d9b476594d4a3dba262f2e8.setIcon(custom_icon_0261d5a7c74c4fd39db98abcb212e56e);
-        
-    
-        var popup_8ec6b19e92bc4731b8e0796c2b064d1c = L.popup({"maxWidth": "100%"});
-
-        
-            var html_52945cae04864126abaa661bfa6900a0 = $(`<div id="html_52945cae04864126abaa661bfa6900a0" style="width: 100.0%; height: 100.0%;">Westerleigh Park, Arcade</div>`)[0];
-            popup_8ec6b19e92bc4731b8e0796c2b064d1c.setContent(html_52945cae04864126abaa661bfa6900a0);
-        
-
-        marker_329de0d92d9b476594d4a3dba262f2e8.bindPopup(popup_8ec6b19e92bc4731b8e0796c2b064d1c)
-        ;
-
-        
-    
-    
-            var marker_ae738bc10b3a4e9d998b14663bf36488 = L.marker(
-                [40.5752214689074, -73.98018786277851],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_0839895770fa41d29ee3caeb0e213576 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_ae738bc10b3a4e9d998b14663bf36488.setIcon(custom_icon_0839895770fa41d29ee3caeb0e213576);
-        
-    
-        var popup_09d946b2e7aa48e48ede035a32dc3103 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_0cb70499464c46908f790df1b22ac460 = $(`<div id="html_0cb70499464c46908f790df1b22ac460" style="width: 100.0%; height: 100.0%;">Eldorado Bumper Cars &amp; Arcade, Arcade</div>`)[0];
-            popup_09d946b2e7aa48e48ede035a32dc3103.setContent(html_0cb70499464c46908f790df1b22ac460);
-        
-
-        marker_ae738bc10b3a4e9d998b14663bf36488.bindPopup(popup_09d946b2e7aa48e48ede035a32dc3103)
-        ;
-
-        
-    
-    
-            var marker_c8997f9693754b17a741ac4ef78b6104 = L.marker(
-                [40.81032070481307, -74.37678906402421],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_f83e409eb4834f4a82557e37a7e1c9b1 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_c8997f9693754b17a741ac4ef78b6104.setIcon(custom_icon_f83e409eb4834f4a82557e37a7e1c9b1);
-        
-    
-        var popup_d7e2ae012beb41928fde574ab325226f = L.popup({"maxWidth": "100%"});
-
-        
-            var html_8f2f26a87e3f48458b4bdb911b0a62c1 = $(`<div id="html_8f2f26a87e3f48458b4bdb911b0a62c1" style="width: 100.0%; height: 100.0%;">The Funplex, Arcade</div>`)[0];
-            popup_d7e2ae012beb41928fde574ab325226f.setContent(html_8f2f26a87e3f48458b4bdb911b0a62c1);
-        
-
-        marker_c8997f9693754b17a741ac4ef78b6104.bindPopup(popup_d7e2ae012beb41928fde574ab325226f)
-        ;
-
-        
-    
-    
-            var marker_cdad7518c3084b0f8df3faa289197ca1 = L.marker(
-                [40.74464420867966, -73.59367805427196],
-                {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
-        
-    
-        var custom_icon_aeb439fb37014b17a39a1d7c81bbdb1d = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_cdad7518c3084b0f8df3faa289197ca1.setIcon(custom_icon_aeb439fb37014b17a39a1d7c81bbdb1d);
-        
-    
-        var popup_fdf24202965447109797e6ef4236b869 = L.popup({"maxWidth": "100%"});
-
-        
-            var html_e6b73104b11347bc8d6089fab7e5cc49 = $(`<div id="html_e6b73104b11347bc8d6089fab7e5cc49" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
-            popup_fdf24202965447109797e6ef4236b869.setContent(html_e6b73104b11347bc8d6089fab7e5cc49);
-        
-
-        marker_cdad7518c3084b0f8df3faa289197ca1.bindPopup(popup_fdf24202965447109797e6ef4236b869)
-        ;
-
-        
-    
-    
-            var marker_1ce11ed3096843079481ae288702e75b = L.marker(
+            var marker_d7f6291222014ed9bd912cab682a0785 = L.marker(
                 [40.582296446639866, -74.1669045068843],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_90a97ca652ba4c16a45e1ecbf5d693cb = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_1ce11ed3096843079481ae288702e75b.setIcon(custom_icon_90a97ca652ba4c16a45e1ecbf5d693cb);
+        var custom_icon_a5242b0a8bdc420d8fc5281c4cae6938 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_d7f6291222014ed9bd912cab682a0785.setIcon(custom_icon_a5242b0a8bdc420d8fc5281c4cae6938);
         
     
-        var popup_a6eb029276e444a6ab48ff9173ee68d4 = L.popup({"maxWidth": "100%"});
+        var popup_d0fd358b16934697b4640d21160d02e1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_cde4c4e66a684d6ba9bd1a715e3aece6 = $(`<div id="html_cde4c4e66a684d6ba9bd1a715e3aece6" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
-            popup_a6eb029276e444a6ab48ff9173ee68d4.setContent(html_cde4c4e66a684d6ba9bd1a715e3aece6);
+            var html_4319464414d043cd97b9f878a5bb968e = $(`<div id="html_4319464414d043cd97b9f878a5bb968e" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
+            popup_d0fd358b16934697b4640d21160d02e1.setContent(html_4319464414d043cd97b9f878a5bb968e);
         
 
-        marker_1ce11ed3096843079481ae288702e75b.bindPopup(popup_a6eb029276e444a6ab48ff9173ee68d4)
+        marker_d7f6291222014ed9bd912cab682a0785.bindPopup(popup_d0fd358b16934697b4640d21160d02e1)
         ;
 
         
     
     
-            var marker_37593d2c7ffc4d839f3206750f9d7f62 = L.marker(
-                [40.71396702977465, -73.9987164479224],
+            var marker_ae044285a0134101ac1e47ce7a93e4b6 = L.marker(
+                [40.574619723392544, -73.97873640060425],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_d4e4e7d4c742417ebdf9dea1ce4b6967 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_37593d2c7ffc4d839f3206750f9d7f62.setIcon(custom_icon_d4e4e7d4c742417ebdf9dea1ce4b6967);
+        var custom_icon_5b6e7e8ae6984fb18cc413e1dae34cab = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_ae044285a0134101ac1e47ce7a93e4b6.setIcon(custom_icon_5b6e7e8ae6984fb18cc413e1dae34cab);
         
     
-        var popup_4d0187705b3b4d2c92d25df7f6300143 = L.popup({"maxWidth": "100%"});
+        var popup_2d7709391c26466e9015ba07343b16f1 = L.popup({"maxWidth": "100%"});
 
         
-            var html_ca7cd584b51347b09199c8c18230d185 = $(`<div id="html_ca7cd584b51347b09199c8c18230d185" style="width: 100.0%; height: 100.0%;">Chinatown Fair Video Arcade, Arcade</div>`)[0];
-            popup_4d0187705b3b4d2c92d25df7f6300143.setContent(html_ca7cd584b51347b09199c8c18230d185);
+            var html_a7dc37fcb1d5412286a1eee13c609f8f = $(`<div id="html_a7dc37fcb1d5412286a1eee13c609f8f" style="width: 100.0%; height: 100.0%;">Luna Arcade, Arcade</div>`)[0];
+            popup_2d7709391c26466e9015ba07343b16f1.setContent(html_a7dc37fcb1d5412286a1eee13c609f8f);
         
 
-        marker_37593d2c7ffc4d839f3206750f9d7f62.bindPopup(popup_4d0187705b3b4d2c92d25df7f6300143)
+        marker_ae044285a0134101ac1e47ce7a93e4b6.bindPopup(popup_2d7709391c26466e9015ba07343b16f1)
         ;
 
         
     
     
-            var marker_653aab178bd047eeac6a4a4b6c0c956e = L.marker(
+            var marker_e24f71a7ddb145e092ba6994d398e8b7 = L.marker(
+                [40.722176617836475, -73.97615314170936],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_98b83bc9bf694d2689676d68f2404745 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_e24f71a7ddb145e092ba6994d398e8b7.setIcon(custom_icon_98b83bc9bf694d2689676d68f2404745);
+        
+    
+        var popup_28df4d12280c426ca5a6e3e3b2fd8019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c37b101b95f44e6685ca1a1fd49b1975 = $(`<div id="html_c37b101b95f44e6685ca1a1fd49b1975" style="width: 100.0%; height: 100.0%;">Boys &amp; Girls Republic, Athletics &amp; Sports</div>`)[0];
+            popup_28df4d12280c426ca5a6e3e3b2fd8019.setContent(html_c37b101b95f44e6685ca1a1fd49b1975);
+        
+
+        marker_e24f71a7ddb145e092ba6994d398e8b7.bindPopup(popup_28df4d12280c426ca5a6e3e3b2fd8019)
+        ;
+
+        
+    
+    
+            var marker_9f5612b8bca34416bb55857672272cac = L.marker(
+                [40.57533, -73.979595],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_f5fc71a343af416cb356fb19d69dee42 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_9f5612b8bca34416bb55857672272cac.setIcon(custom_icon_f5fc71a343af416cb356fb19d69dee42);
+        
+    
+        var popup_eadce9da0fa0456d8bd06fd93572f0b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3211c8fcba0c4fc79d9559cfde4ccd78 = $(`<div id="html_3211c8fcba0c4fc79d9559cfde4ccd78" style="width: 100.0%; height: 100.0%;">Pinball 4 Pinheads, Arcade</div>`)[0];
+            popup_eadce9da0fa0456d8bd06fd93572f0b7.setContent(html_3211c8fcba0c4fc79d9559cfde4ccd78);
+        
+
+        marker_9f5612b8bca34416bb55857672272cac.bindPopup(popup_eadce9da0fa0456d8bd06fd93572f0b7)
+        ;
+
+        
+    
+    
+            var marker_fb448905f1434459b723cca4c573f9f8 = L.marker(
+                [40.573882217685764, -73.9790153503418],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_bfa1b701a6fe4e3dac8e1bdfc9b9103e = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_fb448905f1434459b723cca4c573f9f8.setIcon(custom_icon_bfa1b701a6fe4e3dac8e1bdfc9b9103e);
+        
+    
+        var popup_b0c0cd278f894eb68b94ff328cd70bf2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5f04a5a859d4272b00a5c96059ae4a1 = $(`<div id="html_b5f04a5a859d4272b00a5c96059ae4a1" style="width: 100.0%; height: 100.0%;">Deno&#39;s Arcade, Arcade</div>`)[0];
+            popup_b0c0cd278f894eb68b94ff328cd70bf2.setContent(html_b5f04a5a859d4272b00a5c96059ae4a1);
+        
+
+        marker_fb448905f1434459b723cca4c573f9f8.bindPopup(popup_b0c0cd278f894eb68b94ff328cd70bf2)
+        ;
+
+        
+    
+    
+            var marker_15b8f6b2d5f74aed8c45f0e15e377514 = L.marker(
+                [41.002291, -74.042427],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_6e1d1b8d92c34449a524b4dff7f5dd51 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_15b8f6b2d5f74aed8c45f0e15e377514.setIcon(custom_icon_6e1d1b8d92c34449a524b4dff7f5dd51);
+        
+    
+        var popup_82ec4037dcf042f6875a5a2f3e39b9fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1141e242030b4eb9a7ca455b0a22834f = $(`<div id="html_1141e242030b4eb9a7ca455b0a22834f" style="width: 100.0%; height: 100.0%;">Hillsdale Carnival, Arcade</div>`)[0];
+            popup_82ec4037dcf042f6875a5a2f3e39b9fb.setContent(html_1141e242030b4eb9a7ca455b0a22834f);
+        
+
+        marker_15b8f6b2d5f74aed8c45f0e15e377514.bindPopup(popup_82ec4037dcf042f6875a5a2f3e39b9fb)
+        ;
+
+        
+    
+    
+            var marker_233f85ec55c84b9fa47e7c81eb60f93c = L.marker(
+                [40.919145, -74.074773],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_6ab73d13962547ad8d652158b37964e0 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_233f85ec55c84b9fa47e7c81eb60f93c.setIcon(custom_icon_6ab73d13962547ad8d652158b37964e0);
+        
+    
+        var popup_a19f355a5eec4b43b5ef7f8fd1d4353c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94d203a2a1a3471c9165bbb685a81928 = $(`<div id="html_94d203a2a1a3471c9165bbb685a81928" style="width: 100.0%; height: 100.0%;">ARENA STEM, Arcade</div>`)[0];
+            popup_a19f355a5eec4b43b5ef7f8fd1d4353c.setContent(html_94d203a2a1a3471c9165bbb685a81928);
+        
+
+        marker_233f85ec55c84b9fa47e7c81eb60f93c.bindPopup(popup_a19f355a5eec4b43b5ef7f8fd1d4353c)
+        ;
+
+        
+    
+    
+            var marker_79962690826c41ed8c6e51d81980b431 = L.marker(
+                [40.76262, -73.832466],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_ebb45761f5b04f5fbbd034af92b9198f = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_79962690826c41ed8c6e51d81980b431.setIcon(custom_icon_ebb45761f5b04f5fbbd034af92b9198f);
+        
+    
+        var popup_94e85f50f66944e487c0ef29af27e27a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0cf0a62a0f142b08fc79201984c8002 = $(`<div id="html_f0cf0a62a0f142b08fc79201984c8002" style="width: 100.0%; height: 100.0%;">Mission Escape Games, General Entertainment</div>`)[0];
+            popup_94e85f50f66944e487c0ef29af27e27a.setContent(html_f0cf0a62a0f142b08fc79201984c8002);
+        
+
+        marker_79962690826c41ed8c6e51d81980b431.bindPopup(popup_94e85f50f66944e487c0ef29af27e27a)
+        ;
+
+        
+    
+    
+            var marker_65d7cdb95e994e539223ee642d9003bd = L.marker(
+                [40.75637, -73.987379],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_f2abfcde242149ec9171b99f171659ea = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_65d7cdb95e994e539223ee642d9003bd.setIcon(custom_icon_f2abfcde242149ec9171b99f171659ea);
+        
+    
+        var popup_94b4632f22bc43bda3a52a832daf353b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9db22a729436421daaa99bc393db5bed = $(`<div id="html_9db22a729436421daaa99bc393db5bed" style="width: 100.0%; height: 100.0%;">Schrimmer Design Group, Coworking Space</div>`)[0];
+            popup_94b4632f22bc43bda3a52a832daf353b.setContent(html_9db22a729436421daaa99bc393db5bed);
+        
+
+        marker_65d7cdb95e994e539223ee642d9003bd.bindPopup(popup_94b4632f22bc43bda3a52a832daf353b)
+        ;
+
+        
+    
+    
+            var marker_12413037146b4cdea9392da0608e8ec5 = L.marker(
+                [40.747238, -73.851675],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_f53cd681533d420f9e6020acbbad5847 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_12413037146b4cdea9392da0608e8ec5.setIcon(custom_icon_f53cd681533d420f9e6020acbbad5847);
+        
+    
+        var popup_35c0815926e242118ff6036d88fccc6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e1b6034ad1d42328236341cc3f2ee7d = $(`<div id="html_7e1b6034ad1d42328236341cc3f2ee7d" style="width: 100.0%; height: 100.0%;">Connected Worlds, Museum</div>`)[0];
+            popup_35c0815926e242118ff6036d88fccc6c.setContent(html_7e1b6034ad1d42328236341cc3f2ee7d);
+        
+
+        marker_12413037146b4cdea9392da0608e8ec5.bindPopup(popup_35c0815926e242118ff6036d88fccc6c)
+        ;
+
+        
+    
+    
+            var marker_be83324ae0b5453d9509318668323fb1 = L.marker(
+                [40.69192757809855, -74.28684951467606],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_99769debbeb44c96a056a4b34981dc1a = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_be83324ae0b5453d9509318668323fb1.setIcon(custom_icon_99769debbeb44c96a056a4b34981dc1a);
+        
+    
+        var popup_8e04d62e0f01406ba22238171e69f732 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4f2767b261a4c7985ebf3380b2de4c5 = $(`<div id="html_b4f2767b261a4c7985ebf3380b2de4c5" style="width: 100.0%; height: 100.0%;">Bunny&#39;s missing fur, Arcade</div>`)[0];
+            popup_8e04d62e0f01406ba22238171e69f732.setContent(html_b4f2767b261a4c7985ebf3380b2de4c5);
+        
+
+        marker_be83324ae0b5453d9509318668323fb1.bindPopup(popup_8e04d62e0f01406ba22238171e69f732)
+        ;
+
+        
+    
+    
+            var marker_59f37ded67a4471cbe758a171797d087 = L.marker(
+                [40.73769085962189, -73.79580616476166],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_c0d8378990e84bcb8969f022554bf453 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_59f37ded67a4471cbe758a171797d087.setIcon(custom_icon_c0d8378990e84bcb8969f022554bf453);
+        
+    
+        var popup_a4d69349f4644e7e8659631fa2cf5763 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0454337a7e314d3cb956608b38e0d812 = $(`<div id="html_0454337a7e314d3cb956608b38e0d812" style="width: 100.0%; height: 100.0%;">Savvy Gas &amp; Car Wash, Automotive Shop</div>`)[0];
+            popup_a4d69349f4644e7e8659631fa2cf5763.setContent(html_0454337a7e314d3cb956608b38e0d812);
+        
+
+        marker_59f37ded67a4471cbe758a171797d087.bindPopup(popup_a4d69349f4644e7e8659631fa2cf5763)
+        ;
+
+        
+    
+    
+            var marker_66e6fd8e44ac4fb58c45c70cb779aeed = L.marker(
+                [40.75283915216719, -73.65796394666427],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_ec2aacf030a94d09855e8c0b6e2e68df = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_66e6fd8e44ac4fb58c45c70cb779aeed.setIcon(custom_icon_ec2aacf030a94d09855e8c0b6e2e68df);
+        
+    
+        var popup_d55e340658dd49caafed83e1e820bb4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ddf8a90228b469ea36164ba006dfa09 = $(`<div id="html_7ddf8a90228b469ea36164ba006dfa09" style="width: 100.0%; height: 100.0%;">Herrill Lanes, Bowling Alley</div>`)[0];
+            popup_d55e340658dd49caafed83e1e820bb4a.setContent(html_7ddf8a90228b469ea36164ba006dfa09);
+        
+
+        marker_66e6fd8e44ac4fb58c45c70cb779aeed.bindPopup(popup_d55e340658dd49caafed83e1e820bb4a)
+        ;
+
+        
+    
+    
+            var marker_bf5d702df7164818b191132814a42823 = L.marker(
+                [40.95347839402155, -73.84389255769372],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_41bcae9fd11a4ed28ac2459a8cb49cfa = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_bf5d702df7164818b191132814a42823.setIcon(custom_icon_41bcae9fd11a4ed28ac2459a8cb49cfa);
+        
+    
+        var popup_36a9d6d7ef39464b93ae0c4fba5728ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e114b6ab952473597f1a38e6f9efedb = $(`<div id="html_5e114b6ab952473597f1a38e6f9efedb" style="width: 100.0%; height: 100.0%;">Lola on the Grill, Arcade</div>`)[0];
+            popup_36a9d6d7ef39464b93ae0c4fba5728ea.setContent(html_5e114b6ab952473597f1a38e6f9efedb);
+        
+
+        marker_bf5d702df7164818b191132814a42823.bindPopup(popup_36a9d6d7ef39464b93ae0c4fba5728ea)
+        ;
+
+        
+    
+    
+            var marker_e427b71dc44a41aeb5adf86e0113ed53 = L.marker(
+                [40.61968301176931, -74.13459087717827],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_635d17440ab14ae299d836cd83dcbd94 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_e427b71dc44a41aeb5adf86e0113ed53.setIcon(custom_icon_635d17440ab14ae299d836cd83dcbd94);
+        
+    
+        var popup_4276fc867def4888a4c2783b3b40c154 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cf54f9c773b4020ac3dfd88610125bf = $(`<div id="html_6cf54f9c773b4020ac3dfd88610125bf" style="width: 100.0%; height: 100.0%;">Westerleigh Park, Arcade</div>`)[0];
+            popup_4276fc867def4888a4c2783b3b40c154.setContent(html_6cf54f9c773b4020ac3dfd88610125bf);
+        
+
+        marker_e427b71dc44a41aeb5adf86e0113ed53.bindPopup(popup_4276fc867def4888a4c2783b3b40c154)
+        ;
+
+        
+    
+    
+            var marker_9bed7d36102b474191cb1cc00e1ca8b0 = L.marker(
+                [40.5752214689074, -73.98018786277851],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_dcfed84587df4afdbc031d45ffcb01cd = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_9bed7d36102b474191cb1cc00e1ca8b0.setIcon(custom_icon_dcfed84587df4afdbc031d45ffcb01cd);
+        
+    
+        var popup_30cfe908ea8440638da0ea75a4d653e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1af38a73feed4182803edf5938ba5c31 = $(`<div id="html_1af38a73feed4182803edf5938ba5c31" style="width: 100.0%; height: 100.0%;">Eldorado Bumper Cars &amp; Arcade, Arcade</div>`)[0];
+            popup_30cfe908ea8440638da0ea75a4d653e0.setContent(html_1af38a73feed4182803edf5938ba5c31);
+        
+
+        marker_9bed7d36102b474191cb1cc00e1ca8b0.bindPopup(popup_30cfe908ea8440638da0ea75a4d653e0)
+        ;
+
+        
+    
+    
+            var marker_8cc80d58c18b4ba683fa763b8c30c9df = L.marker(
+                [40.78036155151292, -73.70817176569405],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_32b2eebbdc8f4a948638ffa0a5f3a373 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_8cc80d58c18b4ba683fa763b8c30c9df.setIcon(custom_icon_32b2eebbdc8f4a948638ffa0a5f3a373);
+        
+    
+        var popup_f551bf8c52534ac6936b017af5ab8d46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e030c830979b4c3bbe6f410a42056307 = $(`<div id="html_e030c830979b4c3bbe6f410a42056307" style="width: 100.0%; height: 100.0%;">Pump It Up, Indoor Play Area</div>`)[0];
+            popup_f551bf8c52534ac6936b017af5ab8d46.setContent(html_e030c830979b4c3bbe6f410a42056307);
+        
+
+        marker_8cc80d58c18b4ba683fa763b8c30c9df.bindPopup(popup_f551bf8c52534ac6936b017af5ab8d46)
+        ;
+
+        
+    
+    
+            var marker_5775f44ea83241379072435d66b14238 = L.marker(
+                [40.88611534467862, -74.28006764841112],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_2793fb53ccee4d5abfdb1671f3b39fa6 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_5775f44ea83241379072435d66b14238.setIcon(custom_icon_2793fb53ccee4d5abfdb1671f3b39fa6);
+        
+    
+        var popup_6383964378fc4938adc34ff6de497abf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6236368969cb477984d3d0938172ca14 = $(`<div id="html_6236368969cb477984d3d0938172ca14" style="width: 100.0%; height: 100.0%;">Funtime Junction, General Entertainment</div>`)[0];
+            popup_6383964378fc4938adc34ff6de497abf.setContent(html_6236368969cb477984d3d0938172ca14);
+        
+
+        marker_5775f44ea83241379072435d66b14238.bindPopup(popup_6383964378fc4938adc34ff6de497abf)
+        ;
+
+        
+    
+    
+            var marker_495e7606627e4ce0acbdee37458142f1 = L.marker(
+                [40.84306197093502, -73.87752023628035],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_c6718e524ce646638483ee8690de1a26 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_495e7606627e4ce0acbdee37458142f1.setIcon(custom_icon_c6718e524ce646638483ee8690de1a26);
+        
+    
+        var popup_e5216f3fc7cb434f877465b08e2be5e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1b7128387514c0c9481d6b890dd1e78 = $(`<div id="html_b1b7128387514c0c9481d6b890dd1e78" style="width: 100.0%; height: 100.0%;">River Park, Park</div>`)[0];
+            popup_e5216f3fc7cb434f877465b08e2be5e6.setContent(html_b1b7128387514c0c9481d6b890dd1e78);
+        
+
+        marker_495e7606627e4ce0acbdee37458142f1.bindPopup(popup_e5216f3fc7cb434f877465b08e2be5e6)
+        ;
+
+        
+    
+    
+            var marker_7b592b2247ea4ca49a153d70ed357ed2 = L.marker(
+                [40.81032070481307, -74.37678906402421],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_f3cd6eaf31834a749830e993fc207b80 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_7b592b2247ea4ca49a153d70ed357ed2.setIcon(custom_icon_f3cd6eaf31834a749830e993fc207b80);
+        
+    
+        var popup_caadccce082e46bdb70304d1df3e780b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bea6194b637455bb55fb0b02f29e08d = $(`<div id="html_0bea6194b637455bb55fb0b02f29e08d" style="width: 100.0%; height: 100.0%;">The Funplex, Arcade</div>`)[0];
+            popup_caadccce082e46bdb70304d1df3e780b.setContent(html_0bea6194b637455bb55fb0b02f29e08d);
+        
+
+        marker_7b592b2247ea4ca49a153d70ed357ed2.bindPopup(popup_caadccce082e46bdb70304d1df3e780b)
+        ;
+
+        
+    
+    
+            var marker_a632141b07074cfaaf831c080de79089 = L.marker(
+                [40.74464420867966, -73.59367805427196],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_47c6e92f6b5e496bb9ba4bd19ec62993 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_a632141b07074cfaaf831c080de79089.setIcon(custom_icon_47c6e92f6b5e496bb9ba4bd19ec62993);
+        
+    
+        var popup_3fd26e1a913f485b961acb81a1e310bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c5a414221c44b838558afff0214f055 = $(`<div id="html_9c5a414221c44b838558afff0214f055" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
+            popup_3fd26e1a913f485b961acb81a1e310bf.setContent(html_9c5a414221c44b838558afff0214f055);
+        
+
+        marker_a632141b07074cfaaf831c080de79089.bindPopup(popup_3fd26e1a913f485b961acb81a1e310bf)
+        ;
+
+        
+    
+    
+            var marker_9fc7a33e675d46a4a3d5f9dc1c5f84ed = L.marker(
+                [40.60734938457182, -74.00244634806536],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_a0e6d5a2da6042b1a5b531b26a753e70 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_9fc7a33e675d46a4a3d5f9dc1c5f84ed.setIcon(custom_icon_a0e6d5a2da6042b1a5b531b26a753e70);
+        
+    
+        var popup_33f4d92381f741f4b7052838a7975844 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c09c4b7276e41c183ea99f8758dd6d4 = $(`<div id="html_5c09c4b7276e41c183ea99f8758dd6d4" style="width: 100.0%; height: 100.0%;">Pizza Den, Pizza Place</div>`)[0];
+            popup_33f4d92381f741f4b7052838a7975844.setContent(html_5c09c4b7276e41c183ea99f8758dd6d4);
+        
+
+        marker_9fc7a33e675d46a4a3d5f9dc1c5f84ed.bindPopup(popup_33f4d92381f741f4b7052838a7975844)
+        ;
+
+        
+    
+    
+            var marker_72ac29c9dda94346841478b18542a423 = L.marker(
+                [40.70811306830621, -73.86796578783104],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_704ce53a7e824f52bc2df4ec4c453425 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_72ac29c9dda94346841478b18542a423.setIcon(custom_icon_704ce53a7e824f52bc2df4ec4c453425);
+        
+    
+        var popup_a3b53aee508a490f86ecccfb3ca536ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6135e590ba2e481ba148d06513aa8277 = $(`<div id="html_6135e590ba2e481ba148d06513aa8277" style="width: 100.0%; height: 100.0%;">Laser Bounce, Laser Tag</div>`)[0];
+            popup_a3b53aee508a490f86ecccfb3ca536ce.setContent(html_6135e590ba2e481ba148d06513aa8277);
+        
+
+        marker_72ac29c9dda94346841478b18542a423.bindPopup(popup_a3b53aee508a490f86ecccfb3ca536ce)
+        ;
+
+        
+    
+    
+            var marker_0f5c77e2910b497f9ef8b2fe508da010 = L.marker(
+                [40.803999, -74.146475],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_2f2cc9bc14f14b5fbeb36d48e9f4b4ec = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_0f5c77e2910b497f9ef8b2fe508da010.setIcon(custom_icon_2f2cc9bc14f14b5fbeb36d48e9f4b4ec);
+        
+    
+        var popup_1b22d915b5a2499fa151fe3b55d1998e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_568d4d9135014d83948cef1a6f20c2d0 = $(`<div id="html_568d4d9135014d83948cef1a6f20c2d0" style="width: 100.0%; height: 100.0%;">Bowlero, Bowling Alley</div>`)[0];
+            popup_1b22d915b5a2499fa151fe3b55d1998e.setContent(html_568d4d9135014d83948cef1a6f20c2d0);
+        
+
+        marker_0f5c77e2910b497f9ef8b2fe508da010.bindPopup(popup_1b22d915b5a2499fa151fe3b55d1998e)
+        ;
+
+        
+    
+    
+            var marker_cd5c064ee28e47a3bcb773be491de603 = L.marker(
+                [40.740791717266916, -73.99351311706076],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_4056a52d55c44acca78899eca828db42 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_cd5c064ee28e47a3bcb773be491de603.setIcon(custom_icon_4056a52d55c44acca78899eca828db42);
+        
+    
+        var popup_adee0b7cc1764205b5419ea8b939fe64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff6b682e2dd4027a4bec47e2363f06c = $(`<div id="html_4ff6b682e2dd4027a4bec47e2363f06c" style="width: 100.0%; height: 100.0%;">BrainXcape, Escape Room</div>`)[0];
+            popup_adee0b7cc1764205b5419ea8b939fe64.setContent(html_4ff6b682e2dd4027a4bec47e2363f06c);
+        
+
+        marker_cd5c064ee28e47a3bcb773be491de603.bindPopup(popup_adee0b7cc1764205b5419ea8b939fe64)
+        ;
+
+        
+    
+    
+            var marker_eab5c2f56295432d85f2f56997c9cdf6 = L.marker(
                 [40.90965385129538, -74.0734725606904],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_64f5a2cd468f4dc5bd4db1890b298b91 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_653aab178bd047eeac6a4a4b6c0c956e.setIcon(custom_icon_64f5a2cd468f4dc5bd4db1890b298b91);
+        var custom_icon_7fe9216fce9e4e9db7cab4c92d95f53b = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_eab5c2f56295432d85f2f56997c9cdf6.setIcon(custom_icon_7fe9216fce9e4e9db7cab4c92d95f53b);
         
     
-        var popup_f14647fb9fc74d1dadd77ec0607d4dee = L.popup({"maxWidth": "100%"});
+        var popup_05fb5ac15ed346e8bd2777d627404339 = L.popup({"maxWidth": "100%"});
 
         
-            var html_8a5c83c398fa4efdad1ae306460b068d = $(`<div id="html_8a5c83c398fa4efdad1ae306460b068d" style="width: 100.0%; height: 100.0%;">Gamers Paradise, Arcade</div>`)[0];
-            popup_f14647fb9fc74d1dadd77ec0607d4dee.setContent(html_8a5c83c398fa4efdad1ae306460b068d);
+            var html_e6752435c71c4288863a95c060d60ede = $(`<div id="html_e6752435c71c4288863a95c060d60ede" style="width: 100.0%; height: 100.0%;">Gamers Paradise, Arcade</div>`)[0];
+            popup_05fb5ac15ed346e8bd2777d627404339.setContent(html_e6752435c71c4288863a95c060d60ede);
         
 
-        marker_653aab178bd047eeac6a4a4b6c0c956e.bindPopup(popup_f14647fb9fc74d1dadd77ec0607d4dee)
+        marker_eab5c2f56295432d85f2f56997c9cdf6.bindPopup(popup_05fb5ac15ed346e8bd2777d627404339)
         ;
 
         
     
     
-            var marker_989af79510aa49e29c87c8c0add06d1b = L.marker(
-                [40.6843712, -73.9771636],
+            var marker_76cafc1b7b3c404887b21dd8870cbcb8 = L.marker(
+                [40.892236, -73.821055],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_16dd3e4814274466b849c71abe0bc041 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_989af79510aa49e29c87c8c0add06d1b.setIcon(custom_icon_16dd3e4814274466b849c71abe0bc041);
+        var custom_icon_8735e9dddc924fbe8c8c11e2d25f779c = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_76cafc1b7b3c404887b21dd8870cbcb8.setIcon(custom_icon_8735e9dddc924fbe8c8c11e2d25f779c);
         
     
-        var popup_afc55b7f54cd4c148db8bdbab318634d = L.popup({"maxWidth": "100%"});
+        var popup_08c303c8bfa447c781cb8e61244036a0 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9ccf95349635431f9502747976a42863 = $(`<div id="html_9ccf95349635431f9502747976a42863" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
-            popup_afc55b7f54cd4c148db8bdbab318634d.setContent(html_9ccf95349635431f9502747976a42863);
+            var html_8a85ffcc9d5d4a4e87871747f83e4a8e = $(`<div id="html_8a85ffcc9d5d4a4e87871747f83e4a8e" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Sports Bar</div>`)[0];
+            popup_08c303c8bfa447c781cb8e61244036a0.setContent(html_8a85ffcc9d5d4a4e87871747f83e4a8e);
         
 
-        marker_989af79510aa49e29c87c8c0add06d1b.bindPopup(popup_afc55b7f54cd4c148db8bdbab318634d)
+        marker_76cafc1b7b3c404887b21dd8870cbcb8.bindPopup(popup_08c303c8bfa447c781cb8e61244036a0)
         ;
 
         
     
     
-            var marker_ad41e70d15cd48478912d5404322745b = L.marker(
+            var marker_981938203f0949479208148b5941a300 = L.marker(
+                [40.71396702977465, -73.9987164479224],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_7e781154316b4c3b8e34da0b00d4be8c = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_981938203f0949479208148b5941a300.setIcon(custom_icon_7e781154316b4c3b8e34da0b00d4be8c);
+        
+    
+        var popup_43bc251433df4164b93ac934a9f582ae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64b159c97e5a4c5eacddb61819385611 = $(`<div id="html_64b159c97e5a4c5eacddb61819385611" style="width: 100.0%; height: 100.0%;">Chinatown Fair Video Arcade, Arcade</div>`)[0];
+            popup_43bc251433df4164b93ac934a9f582ae.setContent(html_64b159c97e5a4c5eacddb61819385611);
+        
+
+        marker_981938203f0949479208148b5941a300.bindPopup(popup_43bc251433df4164b93ac934a9f582ae)
+        ;
+
+        
+    
+    
+            var marker_b5ce49bed35d488981cdd7cbfdf2594d = L.marker(
+                [40.74831149765408, -73.98417349552845],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_689a0c93a9834e918e8b4708d0b8435d = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_b5ce49bed35d488981cdd7cbfdf2594d.setIcon(custom_icon_689a0c93a9834e918e8b4708d0b8435d);
+        
+    
+        var popup_8143a48ebe0c47e7b9be74448338633f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41800926ac0646ffa1ce924f6b6d7830 = $(`<div id="html_41800926ac0646ffa1ce924f6b6d7830" style="width: 100.0%; height: 100.0%;">VR World NYC, General Entertainment</div>`)[0];
+            popup_8143a48ebe0c47e7b9be74448338633f.setContent(html_41800926ac0646ffa1ce924f6b6d7830);
+        
+
+        marker_b5ce49bed35d488981cdd7cbfdf2594d.bindPopup(popup_8143a48ebe0c47e7b9be74448338633f)
+        ;
+
+        
+    
+    
+            var marker_e74995d09f4b47b69bb81feb98a0ca77 = L.marker(
+                [40.89026342974626, -74.2612629067459],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_728bfca046424b918a3b14a973769891 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_e74995d09f4b47b69bb81feb98a0ca77.setIcon(custom_icon_728bfca046424b918a3b14a973769891);
+        
+    
+        var popup_92089581e24c498fabf67c00d1d2aab8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0daa2fa8fa4d41fd9336c7d253681cb6 = $(`<div id="html_0daa2fa8fa4d41fd9336c7d253681cb6" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Sports Bar</div>`)[0];
+            popup_92089581e24c498fabf67c00d1d2aab8.setContent(html_0daa2fa8fa4d41fd9336c7d253681cb6);
+        
+
+        marker_e74995d09f4b47b69bb81feb98a0ca77.bindPopup(popup_92089581e24c498fabf67c00d1d2aab8)
+        ;
+
+        
+    
+    
+            var marker_d10671957e7948dd851c113a7aebfd7c = L.marker(
+                [41.09712303076183, -73.95440108891714],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_0aaf841ca3a14feab4ab9129f62653d0 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_d10671957e7948dd851c113a7aebfd7c.setIcon(custom_icon_0aaf841ca3a14feab4ab9129f62653d0);
+        
+    
+        var popup_02a58e1ec2ce48be8bbdc5e4b96601d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c60426a44d674fcf9095bee20e698200 = $(`<div id="html_c60426a44d674fcf9095bee20e698200" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Sports Bar</div>`)[0];
+            popup_02a58e1ec2ce48be8bbdc5e4b96601d0.setContent(html_c60426a44d674fcf9095bee20e698200);
+        
+
+        marker_d10671957e7948dd851c113a7aebfd7c.bindPopup(popup_02a58e1ec2ce48be8bbdc5e4b96601d0)
+        ;
+
+        
+    
+    
+            var marker_ce6151a3989e4382984913a2e7738cd7 = L.marker(
                 [40.75643240072602, -73.98883258077687],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_f331b7809edd45a2bd9c6fead73c6621 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_ad41e70d15cd48478912d5404322745b.setIcon(custom_icon_f331b7809edd45a2bd9c6fead73c6621);
+        var custom_icon_8fbc28ab834b4fde8a7c61c8a720b7b7 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_ce6151a3989e4382984913a2e7738cd7.setIcon(custom_icon_8fbc28ab834b4fde8a7c61c8a720b7b7);
         
     
-        var popup_73af361765a14306a546eb0ba8f7bed9 = L.popup({"maxWidth": "100%"});
+        var popup_d16e9c9e142c4f559a335d398c3e88f9 = L.popup({"maxWidth": "100%"});
 
         
-            var html_b27fad848b7e41688d86d608fcb9e5db = $(`<div id="html_b27fad848b7e41688d86d608fcb9e5db" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
-            popup_73af361765a14306a546eb0ba8f7bed9.setContent(html_b27fad848b7e41688d86d608fcb9e5db);
+            var html_f0b141c39e30464584518f1f69fd8b3a = $(`<div id="html_f0b141c39e30464584518f1f69fd8b3a" style="width: 100.0%; height: 100.0%;">Dave &amp; Buster&#39;s, Arcade</div>`)[0];
+            popup_d16e9c9e142c4f559a335d398c3e88f9.setContent(html_f0b141c39e30464584518f1f69fd8b3a);
         
 
-        marker_ad41e70d15cd48478912d5404322745b.bindPopup(popup_73af361765a14306a546eb0ba8f7bed9)
+        marker_ce6151a3989e4382984913a2e7738cd7.bindPopup(popup_d16e9c9e142c4f559a335d398c3e88f9)
         ;
 
         
     
     
-            var marker_ccc44f1611bb4cf3a1f506d372aa3613 = L.marker(
-                [41.06796685456238, -73.81454726227005],
+            var marker_223f91a8f48c463fac7c767b802a8995 = L.marker(
+                [40.72935087592691, -73.98946883166617],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_c05bc10cebe745d7be0d71b31c260b82 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_ccc44f1611bb4cf3a1f506d372aa3613.setIcon(custom_icon_c05bc10cebe745d7be0d71b31c260b82);
+        var custom_icon_73290e2b4d7445b2aa48c95bc510eaf0 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_223f91a8f48c463fac7c767b802a8995.setIcon(custom_icon_73290e2b4d7445b2aa48c95bc510eaf0);
         
     
-        var popup_7d837873bfb146f39bfa75525a69ad1b = L.popup({"maxWidth": "100%"});
+        var popup_c9b329c764de4f2db1a119f3bda23551 = L.popup({"maxWidth": "100%"});
 
         
-            var html_f97517255137482596c924d2c8d949d6 = $(`<div id="html_f97517255137482596c924d2c8d949d6" style="width: 100.0%; height: 100.0%;">Sportime USA, Arcade</div>`)[0];
-            popup_7d837873bfb146f39bfa75525a69ad1b.setContent(html_f97517255137482596c924d2c8d949d6);
+            var html_72db114c21e34f80b6e5af336221419c = $(`<div id="html_72db114c21e34f80b6e5af336221419c" style="width: 100.0%; height: 100.0%;">Barcade, Bar</div>`)[0];
+            popup_c9b329c764de4f2db1a119f3bda23551.setContent(html_72db114c21e34f80b6e5af336221419c);
         
 
-        marker_ccc44f1611bb4cf3a1f506d372aa3613.bindPopup(popup_7d837873bfb146f39bfa75525a69ad1b)
+        marker_223f91a8f48c463fac7c767b802a8995.bindPopup(popup_c9b329c764de4f2db1a119f3bda23551)
         ;
 
         
     
     
-            var marker_7024a85602204d789c6f922d28f9fb96 = L.marker(
-                [40.86321585975214, -73.83326754981726],
+            var marker_64c80e7a786249e2a146a3a658895e7d = L.marker(
+                [40.630199, -74.140225],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_e1c9112926ac4b74a5eebe70ff38d5f9 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_7024a85602204d789c6f922d28f9fb96.setIcon(custom_icon_e1c9112926ac4b74a5eebe70ff38d5f9);
+        var custom_icon_fed3e39e47164c14b30b85428b724be6 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_64c80e7a786249e2a146a3a658895e7d.setIcon(custom_icon_fed3e39e47164c14b30b85428b724be6);
         
     
-        var popup_451c044f9e7a4427a203ef8e412bb403 = L.popup({"maxWidth": "100%"});
+        var popup_3eb61bafa7994df99c17472758e01863 = L.popup({"maxWidth": "100%"});
 
         
-            var html_bc197c351c58403f9a3332a335cf77f4 = $(`<div id="html_bc197c351c58403f9a3332a335cf77f4" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
-            popup_451c044f9e7a4427a203ef8e412bb403.setContent(html_bc197c351c58403f9a3332a335cf77f4);
+            var html_e19ce4d45015442095baad4942e18e2f = $(`<div id="html_e19ce4d45015442095baad4942e18e2f" style="width: 100.0%; height: 100.0%;">Denino&#39;s Pizzeria Tavern, Pizza Place</div>`)[0];
+            popup_3eb61bafa7994df99c17472758e01863.setContent(html_e19ce4d45015442095baad4942e18e2f);
         
 
-        marker_7024a85602204d789c6f922d28f9fb96.bindPopup(popup_451c044f9e7a4427a203ef8e412bb403)
+        marker_64c80e7a786249e2a146a3a658895e7d.bindPopup(popup_3eb61bafa7994df99c17472758e01863)
         ;
 
         
     
     
-            var marker_251661d19fc84ee3a05966a8fcc44ecb = L.marker(
+            var marker_b5bb9690d68346c4b878068e5264c4aa = L.marker(
+                [40.6843712, -73.9771636],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_f433947d34934adc8aa6921c419ac807 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_b5bb9690d68346c4b878068e5264c4aa.setIcon(custom_icon_f433947d34934adc8aa6921c419ac807);
+        
+    
+        var popup_242526413538465a9a0d19120a3e92c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01268a88a73e40a19ff67e73d9c7d9ce = $(`<div id="html_01268a88a73e40a19ff67e73d9c7d9ce" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
+            popup_242526413538465a9a0d19120a3e92c7.setContent(html_01268a88a73e40a19ff67e73d9c7d9ce);
+        
+
+        marker_b5bb9690d68346c4b878068e5264c4aa.bindPopup(popup_242526413538465a9a0d19120a3e92c7)
+        ;
+
+        
+    
+    
+            var marker_18fe351d45f44a54913c29920c104af8 = L.marker(
                 [40.7218084, -74.0949193],
                 {"parseHtml": false}
-            ).addTo(map_ce17d26e44d34748ba503c89fbd673ec);
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
         
     
-        var custom_icon_b1dabaffd6a54b19baa18ce12338a006 = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
-        marker_251661d19fc84ee3a05966a8fcc44ecb.setIcon(custom_icon_b1dabaffd6a54b19baa18ce12338a006);
+        var custom_icon_7b9592b9a69f45e896201256138ff42c = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_18fe351d45f44a54913c29920c104af8.setIcon(custom_icon_7b9592b9a69f45e896201256138ff42c);
         
     
-        var popup_6a890ee6ed4b4422b7277d069ee6a8f1 = L.popup({"maxWidth": "100%"});
+        var popup_b326845d3c2b47208475d11200d39f05 = L.popup({"maxWidth": "100%"});
 
         
-            var html_9e3ca43bcff2461d98291e5bbf05a76a = $(`<div id="html_9e3ca43bcff2461d98291e5bbf05a76a" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
-            popup_6a890ee6ed4b4422b7277d069ee6a8f1.setContent(html_9e3ca43bcff2461d98291e5bbf05a76a);
+            var html_d8b11a00e24640cb817b55ea82d52517 = $(`<div id="html_d8b11a00e24640cb817b55ea82d52517" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
+            popup_b326845d3c2b47208475d11200d39f05.setContent(html_d8b11a00e24640cb817b55ea82d52517);
         
 
-        marker_251661d19fc84ee3a05966a8fcc44ecb.bindPopup(popup_6a890ee6ed4b4422b7277d069ee6a8f1)
+        marker_18fe351d45f44a54913c29920c104af8.bindPopup(popup_b326845d3c2b47208475d11200d39f05)
+        ;
+
+        
+    
+    
+            var marker_bfdb7a81d4a2477bb33f048d78d1ae8a = L.marker(
+                [40.86321585975214, -73.83326754981726],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_e81d536d082946eb9e6d7e8eb7c98cec = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_bfdb7a81d4a2477bb33f048d78d1ae8a.setIcon(custom_icon_e81d536d082946eb9e6d7e8eb7c98cec);
+        
+    
+        var popup_45ad895cbbd44a49a11189e79a39925a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9505aa5c0e5485da9e4d2a06092afca = $(`<div id="html_a9505aa5c0e5485da9e4d2a06092afca" style="width: 100.0%; height: 100.0%;">Chuck E. Cheese, Arcade</div>`)[0];
+            popup_45ad895cbbd44a49a11189e79a39925a.setContent(html_a9505aa5c0e5485da9e4d2a06092afca);
+        
+
+        marker_bfdb7a81d4a2477bb33f048d78d1ae8a.bindPopup(popup_45ad895cbbd44a49a11189e79a39925a)
+        ;
+
+        
+    
+    
+            var marker_4158d314d31c420cbd61c1ae2b049bba = L.marker(
+                [41.06796685456238, -73.81454726227005],
+                {"parseHtml": false}
+            ).addTo(map_06c9567228d943b298c31226f792bfb9);
+        
+    
+        var custom_icon_d1ea3b6eadf34484ac674281319dd5ed = L.icon({"iconSize": [30, 25], "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABmJLR0QA/wD/AP+gvaeTAAAB50lEQVRoge2Yv0sCYRjHv69pYFlpU+kQLkVG0FKz0l40iLW41NLSj6W1/oHox9JUoFPhEDYWYTUE1VQUES4uOmT4C6vFugY5wbC893zO4/D9THf63vP9fu95Xu44QCBobRjvBakZSFoYkXEe83kyaWWkWYgAemP4ANybWCY2YZMAIDzib8hA8CkCAPDdFlV5MXwHzFSFBj2jmAoE0W13/LuukMsiehhC/PmRRJesA0rMA0C33YGpQJBKli6AEvMyPY5eKlnj7wERQG9EAL3RLMD7zSkSs8NIzHnwcXumlQxdgEIuW3We3l5B6S2FUjqJ1+2Vqv/y2QyVLF2A6GFIkbF8NoOTozCVLN2rRPz5EZsba5Vzl9WNcZYGGMOd1Y3k8gKVVBVkAX6T7OrHdecYAGDA1qeVjLrXaSmy5QVMsXrrJveiAIDzxWkFVb99zL96wetF5R5oW6+3YuvyvnK8c/VAUrMW3AHKd1/y1i3MGDosZnS2W8AU9VnylmvzwT1CUmQ3piSAOtgF8y/5uK7glRDfhYgxfADNngO1eEnaav4+5Cqqrmn4DugSYN/qwUHHCEmtpo6QTKqt9iipQYyQ3hg+gC57wPn1DpPqz8rV6BJg/vOJrJYYIR4aeeL+heE7YPgAAkGr8wOei2rbGtyMxQAAAABJRU5ErkJggg=="});
+        marker_4158d314d31c420cbd61c1ae2b049bba.setIcon(custom_icon_d1ea3b6eadf34484ac674281319dd5ed);
+        
+    
+        var popup_038460f5d1704d8db11a8fda886ae902 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a73b9952165c49cfbe6a0e25fc73ab70 = $(`<div id="html_a73b9952165c49cfbe6a0e25fc73ab70" style="width: 100.0%; height: 100.0%;">Sportime USA, Arcade</div>`)[0];
+            popup_038460f5d1704d8db11a8fda886ae902.setContent(html_a73b9952165c49cfbe6a0e25fc73ab70);
+        
+
+        marker_4158d314d31c420cbd61c1ae2b049bba.bindPopup(popup_038460f5d1704d8db11a8fda886ae902)
         ;
 
         
