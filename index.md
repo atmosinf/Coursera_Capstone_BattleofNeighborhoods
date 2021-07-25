@@ -31,7 +31,7 @@ We plotted the Categories of the results in a bar graph. This allowed us to see 
 <img src="arcade_bargraph_snip.PNG" alt="arcade categories">
 
 
-**Feature Selection:**
+**Feature Selection:**<br>
 For both the Arcade and University data, we have selected the Name, Latitude, Longitude and Category as the features to keep. We have dropped the other features.
 
 Arcades:<br>
@@ -42,5 +42,33 @@ Universities:<br>
 
 We then plotted the results using the folium library.
 
-Manhattan neighborhoods:<br>
+**Manhattan neighborhoods**<br>
 <iframe src="man_neigh_map.html" height="500" width="700">
+<br>  
+  
+**Universities and Arcades in Manhattan**
+<iframe src="unimap.html" height="500" width="700">
+  
+  
+## 3. Methodology<br>
+We used the location data to find the location with the highest density of Universities. To find this cluster, we will use the DBSCAN (Density Based Spatial Clustering of Applications with Noise).
+Using recursion, we will use the optimal value of epsilon and choose the min_samples to be = 5. Finally, we will plot the different clusters in different colors and identify the cluster with the highest density. If the number of arcades near this cluster is low, we will find the optimal spot to be near that area.
+
+## 4. Analysis <br>
+  
+<iframe src="unimap.html" height="500" width="700">
+<br>
+We can see in the output of the DBSCAN clustering algorithm above that the cluster in pink seems to be the densest cluster. We will perform further analysis by adding the arcades back to the map. 
+  
+## 5. Results and Discussion
+  
+During the visualization of the data, we found that the northern part of Manhattan had only one arcade. When we plotted the data, we also saw that the density of Universities in the northern part (neighborhoods of Morningside Heights and Harlem) is quite high. This already looks quite promising.
+After running a simple DBSCAN on the university locations, we found that indeed, the highest density was to the north of Central Park (colored in green), and the second densest cluster was in the south of Central Park (colored in green). Furthermore, the northern part has fewer arcades than the southern part of the borough.
+
+## 6. Conclusion
+  
+<iframe src="finalmap.html" height="500" width="700">
+<br>
+Using the visualizations, analysis and the results of our clustering model, we can conclude that the ideal location to open an arcade would be just to the south of Morningside Heights. We have found this spot to be in the neighborhood of Upper West Side, in Bloomingdale. The area is marked by a blue circle in the final visualization. We can expect the students of Columbia University to start using this arcade when it is open.
+
+
